@@ -1,0 +1,124 @@
+/* Background & Layout */
+html {
+  background-color: #FFFDF2;
+}
+
+main {
+  display: block;
+  margin: 0 auto;
+  max-width: 950px;
+  font-family: Work Sans, sans-seri;
+}
+
+/* Header */
+header h1 {
+  text-align: center;
+}
+header ul {
+    margin: auto;
+    padding: 20px;
+}
+
+header li {
+    display: inline-block;
+    margin: 0px 20px;
+}
+
+nav a {
+   text-decoration: none; 
+   border: 1px solid red;
+   padding: 5px;
+}
+
+/* Navigation: buttons */
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+}
+
+button {
+  background-color: white;
+  border: 2px solid red;
+  padding: 5px;
+  font-size: 15px;
+}
+
+button:hover {
+  background-color: #fed3dc;
+}
+
+
+/* All Sections */
+section {
+ border: 2px solid gray;
+ max-width: 950px;
+ height: auto;
+ margin-bottom: 20px;
+ padding-left: 15px;
+ background-color: white;
+}
+
+/* Colors Section */
+section .choice {
+  display: inline-block;
+  justify-content: space-evenly;
+  width: auto;
+  padding: 10px;
+  text-align: center;
+}
+
+#pink {
+  background-color: #FFB5C0;
+}
+
+#light-blue {
+  background-color: #6693F5;
+}
+
+#orange {
+  background-color: #FFB630;
+}
+
+#cream {
+  background-color: #FFFDF2;
+}
+
+
+/* Fonts Section */
+.fontbox {
+  display: row;
+  column-count: 2;
+  justify-content: ;
+  
+}
+
+#nunito {
+  font-family: 'Nunito Sans';
+}
+
+#space-mono {
+  font-family: 'Space Mono';
+}
+
+#work-sans {
+  font-family: 'Work Sans';
+}
+
+#merriweather {
+  font-family: 'Merriweather';
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.italic {
+  font-style: italic;
+}
+
+/* Text Section */
+li {
+  list-style: square;
+  font-family: Work Sans;
+}
