@@ -2,7 +2,8 @@
 <html>
   <head>
     <title>My Design System</title>
-    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./style.css" />
+
 
     <!-- Fonts import -->
   <style>
@@ -50,37 +51,46 @@
     </section>
 
     <!-- Fonts Section -->
+    <p style="color: red">Sort out the layout here so that the paragraphs wrap into their own columns.</p>
     <a  class="anchor" name="target-fonts"></a>
+
     <section class="fontbox">
       <h3>Fonts</h3>
       
-      <div class="font-choice" id="nunito">
-        <h3>Nunito Sans</h3>
-        <p>The quick brown fox jumps over the lazy do</p>
-        <p class="bold">The quick brown fox jumps over the lazy dog.</p>
-        <p class="italic">The quick brown fox jumps over the lazy dog.</p>
-      </div> <br>
+      <div class="columns">
+        <div class="col">
+          <div class="font-choice" id="nunito">
+            <h3>Nunito Sans</h3>
+            <p>The quick brown fox jumps over the lazy do</p>
+            <p class="bold">The quick brown fox jumps over the lazy dog.</p>
+            <p class="italic">The quick brown fox jumps over the lazy dog.</p>
+          </div> <br>
 
-      <div class="font-choice" id="space-mono">
-        <h3>Space Mono</h3>
-        <p>The quick brown fox jumps over the lazy dog.</p>
-        <p class="bold">The quick brown fox jumps over the lazy dog.</p>
-        <p class="italic">The quick brown fox jumps over the lazy dog.</p>
-      </div> <br>
+          <div class="font-choice" id="space-mono">
+            <h3>Space Mono</h3>
+            <p>The quick brown fox jumps over the lazy dog.</p>
+            <p class="bold">The quick brown fox jumps over the lazy dog.</p>
+            <p class="italic">The quick brown fox jumps over the lazy dog.</p>
+          </div> 
+        </div>
 
-      <div class="font-choice" id="work-sans">
-        <h3>Work Sans</h3>
-        <p>The quick brown fox jumps over the lazy dog.</p>
-        <p class="bold">The quick brown fox jumps over the lazy dog.</p>
-        <p class="italic">The quick brown fox jumps over the lazy dog.</p>
-      </div> <br>
+        <div class="col">
+          <div class="font-choice" id="work-sans">
+            <h3>Work Sans</h3>
+            <p>The quick brown fox jumps over the lazy dog.</p>
+            <p class="bold">The quick brown fox jumps over the lazy dog.</p>
+            <p class="italic">The quick brown fox jumps over the lazy dog.</p>
+          </div> <br>
 
-      <div class="font-choice" id="merriweather">
-        <h3>Merriweather</h3>
-        <p>The quick brown fox jumps over the lazy dog.</p>
-        <p class="bold">The quick brown fox jumps over the lazy dog.</p>
-        <p class="italic">The quick brown fox jumps over the lazy dog.</p>
+          <div class="font-choice" id="merriweather">
+            <h3>Merriweather</h3>
+            <p>The quick brown fox jumps over the lazy dog.</p>
+            <p class="bold">The quick brown fox jumps over the lazy dog.</p>
+            <p class="italic">The quick brown fox jumps over the lazy dog.</p>
+          </div>
+        </div>
       </div>
+      
     </section>
 
     <!-- Text Styles Section -->
@@ -110,15 +120,20 @@
       </ul>
     </section>
 
-    <!-- Positioning Section -->
+    <!-- Interactivity Section: Buttons , links etc -->
     <a  class="anchor" name="target-buttons"></a>
     <section class="buttonbox">
       <h3>Buttons</h3>
+      <p> I really like interactive buttons like:</p>
     </section>
 
-    <!-- Interactivity Section: Buttons , links etc -->
+    <!--position-->
     <section class="positionbox">
+
+      <code>If there is 10px white space aroun your document, set the body tag padding and margins to 0px.</code>
+      
       <h3>Positioning</h3>
+      <p>{Display: flex} I like to use this property to layout the items on the webpage. <br><br> To center Items and content in the center, I utilize {justify-content: center} and {align-items: center}</p>
     </section>
   </main>
 </html>
