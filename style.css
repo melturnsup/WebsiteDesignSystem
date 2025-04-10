@@ -1,0 +1,130 @@
+/* Background & Layout */
+html {
+    background-color: #FFFDF2;
+  }
+  
+  main {
+    display: block;
+    margin: 0 auto;
+    max-width: 950px;
+    font-family: 'Work Sans', sans-seri;
+  }
+  
+  /* Header */
+  header h1 {
+    text-align: center;
+  }
+  
+  /* Navigation: buttons */
+
+  nav {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+  }
+  
+  nav ul {
+      display: inline-flex;
+      margin: auto;
+      padding: 20px;
+  }
+  
+  nav li {
+      margin: 0px 20px;
+      list-style: none;
+  }
+  
+  nav a {
+     color: red;
+     text-decoration: none; 
+     border: 1px solid red;
+     padding: 5px;
+  }
+  
+
+  
+  a:hover {
+    background-color: lightpink;
+  }
+  
+  /* All Sections */
+  section {
+   border: 2px solid gray;
+   max-width: 950px;
+   height: auto;
+   margin-bottom: 20px;
+   padding: 0px 15px 0px 15px;
+   background-color: white;
+  }
+  
+  /* Colors Section */
+  section .choice {
+    display: inline-block;
+    justify-content: space-evenly;
+    width: auto;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  #pink {
+    background-color: #FFB5C0;
+  }
+  
+  #light-blue {
+    background-color: #6693F5;
+  }
+  
+  #orange {
+    background-color: #FFB630;
+  }
+  
+  #cream {
+    background-color: #FFFDF2;
+  }
+  
+  
+  /* Fonts Section */
+  
+  .columns {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .col {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  #nunito {
+    font-family: 'Nunito Sans';
+  }
+  
+  #space-mono {
+    font-family: 'Space Mono';
+  }
+  
+  #work-sans {
+    font-family: 'Work Sans';
+  }
+  
+  #merriweather {
+    font-family: 'Merriweather';
+  }
+  
+  .bold {
+    font-weight: bold;
+  }
+  
+  .italic {
+    font-style: italic;
+  }
+  
+  /* Text Section */
+  li {
+    list-style: square;
+    font-family: Work Sans;
+  }
+  
+  
